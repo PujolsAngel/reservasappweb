@@ -118863,7 +118863,7 @@ case 2:return A.p(o.at(-1),r)}})
 return A.r($async$Fd,r)},
 H(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r,k=A.zQ((l==null?m.gAQ():l).c3(0.16),B.tE),j=A.b3x(m.gAQ())
 if(o.f)s=B.bq
-else{s=A.beM(k,560,A.bc8(new A.a5a(m,k,n),B.tr),B.l,!0,!0,B.v)
+else{s=A.beM(k,480,A.bc8(new A.a5a(m,k,n),B.tr),B.l,!0,!0,B.v)
 r=o.e.length===1?"Reserva tu cita":"Elige con qui\xe9n quieres tu cita"
 q=A.n(a).ok.w
 p=t.p
