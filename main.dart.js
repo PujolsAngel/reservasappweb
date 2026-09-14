@@ -118774,7 +118774,7 @@ break
 case 6:case 1:return A.q(q,r)
 case 2:return A.p(o.at(-1),r)}})
 return A.r($async$nS,r)},
-vJ(){var s=0,r=A.t(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g
+vJ(){var s=0,r=A.t(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e
 var $async$vJ=A.o(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:if(m.as==null){m.c.O(t.q).f.aV(A.bE(null,null,null,null,null,B.l,null,A.D("Guarda primero los datos del negocio.",null,null,null,null,null,null,null),null,B.y,null,null,null,null,null,null,null,null,null,null))
 s=1
@@ -118798,8 +118798,10 @@ n.push(7)
 s=6
 break
 case 5:p=4
-g=o.pop()
-m.c.O(t.q).f.aV(A.bE(null,null,null,null,null,B.l,null,A.D("No se pudo subir el banner. Intenta de nuevo.",null,null,null,null,null,null,null),null,B.y,null,null,null,null,null,null,null,null,null,null))
+e=o.pop()
+h=A.a4(e)
+f=A.k(h)
+m.c.O(t.q).f.aV(A.bE(null,null,null,null,null,B.l,null,A.D("No se pudo subir el banner: "+f,null,null,null,null,null,null,null),null,B.y,null,null,null,null,null,null,null,null,null,null))
 n.push(7)
 s=6
 break
