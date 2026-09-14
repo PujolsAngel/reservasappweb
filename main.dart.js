@@ -118961,7 +118961,7 @@ if(k.length!==0)l.push(A.b7Q(0,A.nB(k,B.c9,a2,a2)))
 if(a1.ay)l.push(B.a6D)
 k=A.dy(p.k2,2)
 l.push(A.fn(10,A.aJ(a2,A.bI(B.oS,p.z,a2,16),B.j,a2,a2,new A.aI(p.y,a2,k,a2,a2,a2,B.ar),a2,30,a2,a2,a2,a2,a2,30),a2,a2,a2,10,a2,a2))
-o=A.cu(A.jv(a2,A.aJ(a2,A.e_(B.aC,l,B.l,B.aJ,a2),B.b4,a2,a2,new A.aI(p.b,a2,m,n,a2,a2,B.v),a2,284.44444444444446,a2,a2,a2,a2,a2,160),B.a_,!1,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,o,a2,a2,a2,a2,a2,a2,!1,B.bU),a2,a2)
+o=A.cu(A.jv(a2,A.aJ(a2,A.e_(B.aC,l,B.l,B.aJ,a2),B.b4,a2,a2,new A.aI(p.b,a2,m,n,a2,a2,B.v),a2,240,a2,a2,a2,a2,a2,160),B.a_,!1,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,o,a2,a2,a2,a2,a2,a2,!1,B.bU),a2,a2)
 n=A.n(a5).ok.Q
 if(n==null)n=a2
 else{m=p.ry
@@ -118973,7 +118973,7 @@ if(m==null)m=a2
 else{l=p.ry
 if(l==null){l=p.m
 if(l==null)l=p.k3}l=m.mY(l,B.a2)
-m=l}B.b.F(q,A.b([A.ai(A.b([o,B.at,n,A.D("Recomendado: 1080 x 1920 px (vertical)",a2,a2,a2,m,B.T,a2,a2)],r),B.n,B.f,B.k,0,B.m),B.ay],r))}o=A.n(a5).ok.x
+m=l}B.b.F(q,A.b([A.ai(A.b([o,B.at,n,A.D("Recomendado: 1080 x 1620 px (vertical)",a2,a2,a2,m,B.T,a2,a2)],r),B.n,B.f,B.k,0,B.m),B.ay],r))}o=A.n(a5).ok.x
 q.push(A.D("Datos del negocio",a2,a2,a2,o==null?a2:o.d1(B.M),a2,a2,a2))
 q.push(B.K)
 q.push(A.cN(!1,a1.f,B.w6,!1,a2,a2,a2,1,!1,a2,a2,a2,a2,a2,a2,B.D,B.V,a2,new A.aKU()))
