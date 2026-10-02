@@ -119385,7 +119385,7 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$FA,r)},
-H(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r,k=A.A9((l==null?m.gAS():l).b7(0.16),B.jR),j=A.b5E(m.gAS())
+H(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r,k=A.A9((l==null?m.gAS():l).b7(0.26),B.jR),j=A.b5E(m.gAS())
 if(o.f)s=B.bn
 else{s=A.bgO(k,480,A.be9(new A.a5J(m,A.bE7(o.e),k,n),B.tH),B.m,!0,!1,B.w)
 r=o.e.length===1?"Reserva tu cita":"Elige con qui\xe9n quieres tu cita"
