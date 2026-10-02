@@ -119385,7 +119385,7 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$FA,r)},
-H(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r,k=A.A9((l==null?m.gAS():l).b7(0.26),B.jR),j=A.b5E(m.gAS())
+H(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r,k=A.A9((l==null?m.gAS():l).b7(0.16),B.jR),j=A.b5E(m.gAS())
 if(o.f)s=B.bn
 else{s=A.bgO(k,480,A.be9(new A.a5J(m,A.bE7(o.e),k,n),B.tH),B.m,!0,!1,B.w)
 r=o.e.length===1?"Reserva tu cita":"Elige con qui\xe9n quieres tu cita"
@@ -123481,7 +123481,7 @@ return A.q($async$HB,r)},
 H(a){var s,r,q=this.a,p=q.c,o=q.d,n=o.c
 if(n.length===0)n=p.c
 s=this.x
-r=A.A9((s==null?p.gAS():s).b7(0.16),B.jR)
+r=A.A9((s==null?p.gAS():s).b7(0.26),B.jR)
 return new A.n1(A.b5E(p.gAS()),new A.di(new A.aZ1(this,r,p,o,n),null),null)},
 a7X(a){var s=this.z.p(0,a.a)
 if(this.gFV().length<=1||s||J.bC(a.b)<=2)return a.b
