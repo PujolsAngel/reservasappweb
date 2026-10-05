@@ -1,6 +1,6 @@
 {
-    "name": "Reservas DR",
-    "short_name": "Reservas DR",
+    "name": "TomarTurno",
+    "short_name": "TomarTurno",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F8F7F4",
