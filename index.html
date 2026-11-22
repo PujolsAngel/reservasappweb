@@ -31,8 +31,48 @@
 
   <title>TomarTurno</title>
   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#22282A">
+  <style>
+    html, body { margin: 0; background: #F8F7F4; }
+    /* Pantalla de carga: se ve apenas llega el HTML, mientras se descarga el
+       motor de Flutter (varios MB) — antes era una pantalla en blanco. Se
+       quita sola cuando Flutter dibuja su primer cuadro. */
+    #boot {
+      position: fixed; inset: 0; z-index: 1;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 18px;
+      background: #F8F7F4; transition: opacity .25s ease;
+    }
+    #boot.done { opacity: 0; pointer-events: none; }
+    #boot img { width: 84px; height: 84px; border-radius: 20px; }
+    #boot .ring {
+      width: 26px; height: 26px; border-radius: 50%;
+      border: 3px solid rgba(34, 40, 42, .14); border-top-color: #1D9E75;
+      animation: boot-spin .8s linear infinite;
+    }
+    @keyframes boot-spin { to { transform: rotate(360deg); } }
+    @media (prefers-color-scheme: dark) {
+      html, body, #boot { background: #0D1A19; }
+      #boot .ring { border-color: rgba(233, 240, 238, .16); border-top-color: #3ED8A0; }
+    }
+  </style>
 </head>
 <body>
+  <div id="boot"><img src="icons/Icon-192.png" alt="TomarTurno"><div class="ring"></div></div>
+  <script>
+    // Quita la pantalla de carga cuando Flutter ya dibujó (o a los 20 s como
+    // seguro, para que nunca tape la app si ese evento no llega).
+    (function () {
+      function hide() {
+        var el = document.getElementById('boot');
+        if (!el) return;
+        el.classList.add('done');
+        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 400);
+      }
+      window.addEventListener('flutter-first-frame', hide);
+      setTimeout(hide, 20000);
+    })();
+  </script>
   <script>
     // Flutter Web (con PathUrlStrategy) borra el "?..." de la URL apenas
     // arranca, antes de que el código Dart llegue a leerlo — esto corre
